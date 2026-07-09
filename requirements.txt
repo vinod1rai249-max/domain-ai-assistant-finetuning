@@ -1,0 +1,15 @@
+# Colab already has torch/transformers preinstalled; these are the
+# additions needed on top of a stock Colab runtime.
+unsloth
+trl>=0.9.0
+datasets
+peft
+accelerate
+bitsandbytes
+requests
+beautifulsoup4
+lxml
+nbformat
+
+# For local (non-Colab) inference and dataset scripts only:
+# torch  -- install separately per your CUDA/CPU setup, see pytorch.org

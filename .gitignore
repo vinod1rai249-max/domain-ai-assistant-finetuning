@@ -1,0 +1,16 @@
+# Ignore model checkpoints
+checkpoints/
+
+# Ignore large zip files
+*.zip
+
+# Ignore caches
+huggingface_tokenizers_cache/
+unsloth_compiled_cache/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
